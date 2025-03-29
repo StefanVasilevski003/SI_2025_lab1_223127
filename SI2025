@@ -1,0 +1,3 @@
+ public void sortTasksByName() {
+        tasks.sort(Comparator.comparing(Task::getName));
+    }
