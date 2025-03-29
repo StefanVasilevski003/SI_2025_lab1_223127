@@ -1,0 +1,3 @@
+public void removeTask(String name) {
+        tasks.removeIf(task -> task.getName().equalsIgnoreCase(name));
+    }
