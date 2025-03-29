@@ -1,3 +1,13 @@
+3-list-tasks-sorted-by-name
 public void sortTasksByPriority() {
         tasks.sort(Comparator.comparing(Task::getPriority).reversed());
     }
+2-find-all-completed-tasks
+ public void sortTasksByName() {
+        tasks.sort(Comparator.comparing(Task::getName));
+
+public void removeTask(String name) {
+        tasks.removeIf(task -> task.getName().equalsIgnoreCase(name));
+ master
+}
+master
