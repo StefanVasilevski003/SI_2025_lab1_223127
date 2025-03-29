@@ -1,0 +1,3 @@
+public void sortTasksByPriority() {
+        tasks.sort(Comparator.comparing(Task::getPriority).reversed());
+    }
