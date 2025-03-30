@@ -1,17 +1,8 @@
 3-list-tasks-sorted-by-name
-3-list-tasks-sorted-by-name
-public void sortTasksByPriority() {
-        tasks.sort(Comparator.comparing(Task::getPriority).reversed());
-    }
 public void sortTasksByPriority() {
         tasks.sort(Comparator.comparing(Task::getPriority).reversed());
     }
 master
-
-public void sortTasksByPriority() {
-        tasks.sort(Comparator.comparing(Task::getPriority).reversed());
-    }
-
 3d610f3 (Resolve merge conflicts)
 2-find-all-completed-tasks
  public void sortTasksByName() {
@@ -22,11 +13,3 @@ public void removeTask(String name) {
  master
 }
 
-3-list-tasks-sorted-by-name
-master
-
-dbcb6bb66e371fe07aa0c0a3fa81d713606d98b4
-master
-
-dbcb6bb66e371fe07aa0c0a3fa81d713606d98b4
-3d610f3 (Resolve merge conflicts)
